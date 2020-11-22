@@ -14,3 +14,4 @@ script:
 
   after_success:
     - docker tag probot-hello probot-hello:$(git rev-parse HEAD)
+    
